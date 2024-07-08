@@ -6,6 +6,7 @@ public class ReverseLinkedList2Ways {
         ReverseLinkedList2Ways x = new ReverseLinkedList2Ways();
         SLLNode head = new SLLNode(111);
         head = x.reverseSLL(head);
+        x.printReverseSLL(head);
     }
 
     /*
@@ -27,8 +28,16 @@ public class ReverseLinkedList2Ways {
         head = prev; // when current=null, prev -> tail node = our new head
         return head;
     }
-    /*
-    Approach 2: Reverse a linked list using recursion
-    */
 
+    /*
+    Print linked list using recursion in reverse order
+    */
+    void printReverseSLL(SLLNode head) {
+        if (head == null)
+            return;
+
+        printReverseSLL(head.next);
+
+        System.out.println("Data: " + head.data);
+    }
 }
