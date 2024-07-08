@@ -12,10 +12,12 @@ public class SinglyLLSearch {
     }
 
     public static void main(String[] args) {
-        Node head = new Node(11);
-        Node first = new Node(12);
-        Node second = new Node(13);
-        Node third = new Node(14);
+        Node head = new Node(10);
+        Node first = new Node(11);
+        Node second = new Node(12);
+        Node third = new Node(13);
+        Node fourth = new Node(14);
+        Node fifth = new Node(15);
 
         head.next = first;
         first.next = second;
