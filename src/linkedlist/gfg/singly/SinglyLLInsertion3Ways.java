@@ -1,4 +1,4 @@
-package linkedlist.singly.gfg;
+package linkedlist.gfg.singly;
 
 public class SinglyLLInsertion3Ways {
     public static Node insertAtBeg(Node head) {

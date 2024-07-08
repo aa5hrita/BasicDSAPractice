@@ -1,4 +1,4 @@
-package linkedlist.singly.gfg;
+package linkedlist.gfg.singly;
 
 public class SinglyLLDeletion3ways {
     public static Node deleteAtBeg(Node head) {

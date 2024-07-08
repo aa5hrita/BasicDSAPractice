@@ -1,4 +1,4 @@
-package linkedlist.doubly.gfg;
+package linkedlist.gfg.doubly;
 
 public class DoublyLLSearch2ways {
 

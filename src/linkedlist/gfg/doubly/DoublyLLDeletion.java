@@ -1,4 +1,4 @@
-package linkedlist.doubly.gfg;
+package linkedlist.gfg.doubly;
 
 public class DoublyLLDeletion {
     static Node deleteAtBeg(Node head) {

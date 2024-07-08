@@ -1,4 +1,4 @@
-package linkedlist.singly.gfg;
+package linkedlist.gfg.singly;
 
 public class SinglyLLSearch {
 
