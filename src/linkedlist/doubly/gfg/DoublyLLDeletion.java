@@ -8,6 +8,7 @@ public class DoublyLLDeletion {
     }
 
     static void deleteAtPosition(Node curr, int position) {
+        position = position - 1; //coz curr is already pointing to the next one
         int count = 0;
 
         while (curr != null && count != position) {
