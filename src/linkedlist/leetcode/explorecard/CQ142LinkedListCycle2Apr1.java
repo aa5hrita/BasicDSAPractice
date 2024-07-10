@@ -2,6 +2,7 @@ package linkedlist.leetcode.explorecard;
 
 import java.util.HashSet;
 
+//Approach 1: Hash Set
 public class CQ142LinkedListCycle2Apr1 {
     class ListNode {
         int val;
