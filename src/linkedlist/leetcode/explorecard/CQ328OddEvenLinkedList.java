@@ -36,11 +36,12 @@ public class CQ328OddEvenLinkedList {
 
             }
 
+            //join both lists
             oddTail.next = evenHead;
 
             return head;
         }
     }
 
-    
+
 }
