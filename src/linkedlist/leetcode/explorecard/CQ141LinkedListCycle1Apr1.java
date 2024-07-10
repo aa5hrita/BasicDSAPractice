@@ -21,7 +21,7 @@ public class CQ141LinkedListCycle1Apr1 {
             Set<ListNode> nodesSeen = new HashSet<>();
             ListNode current = head;
             while (current != null) {
-                if (nodesSeen.contains(current)) {
+                if (nodesSeen.contains(current)) { //key logic
                     return true;
                 }
                 nodesSeen.add(current);
