@@ -22,7 +22,6 @@ public class ReverseDLL {
         }
         //returning the previous node of head as the new head (the last node after reversing the list)
         return prev.prev;
-
     }
 
 }
